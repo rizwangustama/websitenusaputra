@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #7D164A;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2, h3{
+    color: #A82067;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #A82067;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: #7D164A;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+header {
+    display: inline;
+}
+
+.profile header{
+    text-align: center;
+}
+.featured-image{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile img{
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0  rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
+
+ .profile .card{
+     text-align: center;
+ }
+
+ 
+ .poto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    padding-top: 0;
+ }
+.potonsp{
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    padding-top: 0;
+ }
+
+ #about{
+     text-align: center;
+ }
+
+ td{
+     text-align: left;
+     vertical-align: top;
+     padding-left: 80px;
+     padding-bottom: 5px;
+ }
+ .tab{
+     margin: auto;
+     width: 500px;
+ }
+
+ .ke{
+     font-weight: bold;
+ }
+
